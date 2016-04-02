@@ -51,7 +51,7 @@ else:
         os.getenv('XDG_CONFIG_HOME') or os.path.expanduser('~/.config'),
         'flake8'
     )
-CONFIG_FILES = ('setup.cfg', 'tox.ini', '.pep8')
+CONFIG_FILES = ('setup.cfg', 'tox.ini', '.pep8', '.flake8')
 
 
 def tools_versions():
